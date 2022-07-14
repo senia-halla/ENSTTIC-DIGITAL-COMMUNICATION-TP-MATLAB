@@ -1,0 +1,17 @@
+Read audio:
+[y,Fs] = audioread(filename) reads data from the file named filename, and returns sampled data, y, and a sample rate for that data, Fs.
+
+
+Play the audio:
+sound(y,Fs);   %Fs : La freq du signal
+
+Double : 64-bit (8-byte) double-precision floating-point values.
+More in :https://www.mathworks.com/help/matlab/matlab_prog/floating-point-numbers.html
+
+
+scatter(x,y) creates a scatter plot with circles at the locations specified by the vectors x and y. This type of graph is also known as a bubble plot.
+
+SQNR= 10*log10(Px/Peq)
+Puissance = 1/N * la somme des carrés de N echantillons
+
+https://www.mathworks.com/matlabcentral/fileexchange/28416-pulse-code-modulation
